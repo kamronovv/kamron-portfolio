@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+:root {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px = 16px/62.%
+}
+body {
+    padding: 0 5rem;
+    a {
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+    }
+  }
+
+$wight:#fff;
+$blue: #0088ff;
+$black:#000;
+.acv:active {
+  color: $blue;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  animation: moveInLeft 1s ease-out;
+  .logo {
+    h1{
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.8rem;
+      color: $blue;
+      span {
+        color: #ff087b;
+      }
+    }
+  }
+  .active{
+    color: $blue;
+  }
+  ul {
+      li {
+          a{
+              font-family: 'Poppins', sans-serif;
+              font-weight: 700;
+              font-size: 1.7rem;
+              color: $black ;    
+          }
+          a:hover {
+            color: $blue;    
+          }        
+      }       
+  }
+}
+.center-ul {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 0fr; 
+}
+.right-ul {
+  display: flex;
+  align-items: center;
+  a {    
+      img {
+      width: 3.4rem;
+      }
+      img:hover {
+          margin-bottom: 0.4rem;
+          transition: all 60ms;
+      }
+}
+a:first-child {
+  color: $wight ;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+  border: 2px solid $blue;
+  border-radius: 1rem ;
+  background-color: $blue;
+  padding: 0.5rem 1rem;
+  max-width: 12rem;
+  text-align: center;
+}
+a:first-child:hover {
+  color: $black;
+  transition:  0.5s;
+}
+}
+/* Navbar animation */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+ 100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

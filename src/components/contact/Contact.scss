@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+:root {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px = 16px/62.%
+}
+body {
+    padding: 0 5rem;
+    a {
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+$wight:#fff;
+$blue: #0088ff;
+$black:#000;
+$dark-pink:#ff08a0;
+$wr-dark-pink:#ff087b;
+
+
+.contact-container {
+    margin-top: 5rem;
+    
+    .box-1 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows:9rem 10rem ;
+
+        .title {
+            text-align: center;
+            font-size: 7rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            color: $blue;
+        }
+        .title-pgf {
+            width: 110rem;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            color: $dark-pink
+            ;
+        }
+    }
+    //box-2 
+    .box-2 {
+        display: flex;
+        justify-content: center;
+        gap: 0 40rem;
+        align-items: center;
+        .left-box {
+            display: grid;
+            grid-template-rows: 15rem 10rem auto;
+            .items {
+                display: flex;
+                .img-box {
+                    margin-right: 2rem;
+                    background-color: $blue;
+                    width: 8rem;
+                    height: 8rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    img {
+                        width: 3.5rem;
+                        height: 3.5rem;
+                    }
+                }
+                .text-box {
+                    h3 {
+                        color: $wr-dark-pink;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 3rem;
+                        font-weight: 600;
+                    }
+                    p {
+                        color: $blue;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                        width: 22rem;
+                    }
+                }
+            }
+        }
+        //right-box 
+        .right-box {
+            .Big-box {
+                background-color: #e6e2e2;
+                padding: 5rem 3rem;
+                h3 {
+                    margin-top: -3rem;
+                    z-index: 1;
+                    color: $wr-dark-pink;
+                    font-size: 3.5rem;
+                    font-weight: 500;
+                    font-family: 'Poppins', sans-serif;
+                }
+                form {
+                    margin-top: 1rem;
+                    display: grid;
+                    grid-template-rows: auto auto auto;
+                    input {
+                        margin-bottom: 3rem;
+                        background: none;
+                        border: none;
+                        font-size: 1.6rem;
+                        font-family: 'Poppins', sans-serif;
+                        padding-bottom: 3px;
+                        outline: none;
+                        border-bottom: 2px solid $wr-dark-pink;
+                    }
+                    
+                    .massage {
+                        background: none;
+                        border: none;
+                        font-size: 1.6rem;
+                        font-family: 'Poppins', sans-serif;
+                        padding-bottom: 3px;
+                        outline: none;
+                        border-bottom: 2px solid $wr-dark-pink;
+                        margin-bottom: 4rem;
+                        max-width: 52rem;
+                    }
+                }
+                .btn-send{
+
+                    font-size: 1.5rem;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    background-color: #ff087b;
+                    color: $wight;
+                    padding: 1.5rem 3rem;
+                    text-align: center;
+                    cursor: pointer;
+                    transition: all 0.5s;
+
+                }
+                .btn-send:hover{
+                    color: #000;
+                    text-align: center;
+                    padding: 1.5rem 3.5rem;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+
+
+}
+
