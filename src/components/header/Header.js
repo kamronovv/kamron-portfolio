@@ -6,7 +6,6 @@ import instagram from '../Images/svg/instagram.svg';
 import telegram from '../Images/svg/telegram.svg';
 import youtube from '../Images/svg/youtube.svg';
 import myImg from '../Images/my-img.png';
-import '../sass/Main.scss';
 
 function Header () { 
     return (
