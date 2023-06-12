@@ -29,6 +29,22 @@ function Skills() {
       </div>
 
       <div className="SklBoxs">
+        <h3 className="skillsName">Sass</h3>
+        <h3 className="Prs">76%</h3>
+        <div className="linePrs">
+          <div className="linePrs2-sass"></div>
+        </div>
+      </div>
+
+      <div className="SklBoxs">
+        <h3 className="skillsName">Bootstrap</h3>
+        <h3 className="Prs">60%</h3>
+        <div className="linePrs">
+          <div className="linePrs2-bootstrap"></div>
+        </div>
+      </div>
+
+      <div className="SklBoxs">
         <h3 className="skillsName">Javascript</h3>
         <h3 className="Prs">74%</h3>
         <div className="linePrs">

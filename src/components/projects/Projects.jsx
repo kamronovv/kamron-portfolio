@@ -23,14 +23,14 @@ function Projects() {
           <img src={Soundcore} />     
           <h1>Soundcore</h1>
           <p className="paragrf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, porro quam facere voluptatum dicta error cum esse illum nam laboriosam nesciunt rem pariatur explicabo ullam. Exercitationem a accusantium sed dignissimos.</p>
-           <a href="#">More Info</a>
+           <a href="https://github.com/kamronovv/headphones" target="_blank" >More Info</a>
         </div>
         {/* //project-box-2 */}
         <div className="box-pr box-2">
           <img src={greenery} />
           <h1>Greenery</h1>
           <p className="paragrf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, porro quam facere voluptatum dicta error cum esse illum nam laboriosam nesciunt rem pariatur explicabo ullam. Exercitationem a accusantium sed dignissimos.</p>
-           <a>More Info</a>
+           <a href="https://github.com/kamronovv/greenery" target="_blank">More Info</a>
         </div>
         {/* //project-box-3 */}
         <div className="box-pr box-3">

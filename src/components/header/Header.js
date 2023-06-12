@@ -13,11 +13,11 @@ function Header () {
       <header>
       <section className='section-1'>
         <div className='my-links'>
-            <a href='https://ru-ru.facebook.com/'><img src={facebook} /></a>
-            <a href='https://github.com/kamronovv'><img src={gitHub} /></a>
-            <a href='https://www.instagram.com/kamronlivee/'><img src={instagram}/></a>
-            <a href='https://t.me/KamronDevv'><img src={telegram}/></a>
-            <a href='https://www.youtube.com/channel/UCo6BoZndNgnlSMny0WLzdmw'><img src={youtube}/></a>
+            <a href='https://ru-ru.facebook.com/' target="_blank"><img src={facebook} /></a>
+            <a href='https://github.com/kamronovv' target="_blank"><img src={gitHub} /></a>
+            <a href='https://www.instagram.com/kamronlivee/' target="_blank"><img src={instagram}/></a>
+            <a href='https://t.me/KamronDevv' target="_blank"><img src={telegram}/></a>
+            <a href='https://www.youtube.com/channel/UCo6BoZndNgnlSMny0WLzdmw' target="_blank"><img src={youtube}/></a>
         </div>
         <div className='header-text'>
             <h1 className='text-1'>Hi</h1>

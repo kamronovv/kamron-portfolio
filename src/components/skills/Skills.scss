@@ -71,6 +71,16 @@ $wr-dark-pink:#ff087b;
                 position: relative;
                 animation: css 2s both;         
             }
+            .linePrs2-sass {
+                width: 76%;     
+                position: relative;
+                animation: sass 2s both;         
+            }
+            .linePrs2-bootstrap {
+                width: 60%;     
+                position: relative;
+                animation: boots 2s both;         
+            }
             .linePrs2-Javascript {          
                 width: 74%;
                 position: relative;
@@ -91,6 +101,14 @@ $wr-dark-pink:#ff087b;
 @keyframes css {
     0%   {width: 0%;}
     100% {width: 86%;}
+}
+@keyframes sass {
+    0%   {width: 0%;}
+    100% {width: 76%;}
+}
+@keyframes boots {
+    0%   {width: 0%;}
+    100% {width: 60%;}
 }
 @keyframes javascript {
     0%   {width: 0%;}
